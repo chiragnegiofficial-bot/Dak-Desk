@@ -1,13 +1,14 @@
-Dak Desk V7.3
+Dak Desk V7.9.1
 Professional User Manual & System Documentation
-Version: 7.3
+Version: 7.9.1
+
 Product Name: Dak Desk
 Category: Branch Office Operations Management System
 Designed For: India Post Branch Offices (BO), BPMs, ABPMs, GDS Employees
-Document Version: 1.0
+Document Version: 1.1
 1. Overview
 1.1 Introduction
-Dak Desk V7.3 is a comprehensive Branch Office Management System developed to simplify and digitize
+Dak Desk V7.9.1 is a comprehensive Branch Office Management System developed to simplify and digitize
 daily postal operations performed at India Post Branch Offices.
 The software integrates multiple operational functions into a single unified platform, eliminating the
 need to maintain separate manual registers, spreadsheets, calculators, and paper records.
