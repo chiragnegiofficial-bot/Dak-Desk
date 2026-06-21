@@ -174,7 +174,7 @@
     <button class="tab-btn" onclick="switchTab('register')" id="tab-register" title="Customer Account Registry"><i data-lucide="users"></i> <span class="nav-text">Customer Account Registry</span></button>
     <button class="tab-btn" onclick="switchTab('rates')" id="tab-rates" title="POSB Growth Planner"><i data-lucide="landmark"></i> <span class="nav-text">POSB Growth Planner</span></button>
     <button class="tab-btn" onclick="switchTab('reports')" id="tab-reports" title="Insights Studio"><i data-lucide="bar-chart-3"></i> <span class="nav-text">Insights Studio</span></button>
-    <button class="tab-btn" onclick="switchTab('operations')" id="tab-operations" title="Operations Hub"><i data-lucide="badge-check"></i> <span class="nav-text">Operations Hub</span></button>
+    <button class="tab-btn" onclick="switchTab('operations')" id="tab-operations" title="Operations Hub" style="display: none !important;"><i data-lucide="badge-check"></i> <span class="nav-text">Operations Hub</span></button>
   </nav>
   <div style="padding: 16px; border-top: 1px solid var(--border-sidebar);">
     <button class="tab-btn" onclick="switchTab('settings')" id="tab-settings" title="Branch Settings & Backup"><i data-lucide="settings"></i> <span class="nav-text">Branch Settings & Backup</span></button>
@@ -695,7 +695,7 @@
     </div>
 
     <!-- OPERATIONS HUB -->
-    <div class="tab-panel" id="tab-panel-operations">
+    <div class="tab-panel" id="tab-panel-operations" style="display: none !important;">
       <div class="operations-hero">
         <div><h2>Operations Hub</h2><p>Daily control, compliance, customer follow-ups, and data safety in one place.</p></div>
         <div class="operations-actions"><button class="btn btn-outline" onclick="runOperationsScan()"><i data-lucide="scan-search"></i> Refresh Scan</button><button class="btn btn-primary" onclick="generateEndOfDayPack()"><i data-lucide="package-check"></i> End-of-Day Pack</button></div>
